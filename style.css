@@ -1,0 +1,433 @@
+*{
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 1440px;
+}
+header{
+    height: 56px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0px 120px;
+    justify-content: space-between;
+}
+header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+header p{
+    color: #F17228;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+.lastItem li a {
+    color: #F17228;
+}
+.tses{
+    width: 384px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.tses li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+header .yellow a{
+    color: #F17228;
+    font-weight: 700;
+}
+input{
+    border:1px solid #FBC5A6;
+    border-radius: 10px;
+    width: 235px;
+    height: 32px;
+}
+.sags{
+    width: 14px;
+    height: 14px;
+    color: #F17228;
+}
+.nevtreh{
+    width: 14px;
+    height: 14px;
+}
+.lastItem{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    justify-content: space-between;
+    padding: 0;
+}
+.lastItem li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.backround{
+    background-image: url(./img/base.png);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.backround img{
+    position: absolute;
+}
+h1{
+    color: #F17228;
+    font-size: 55px;
+    font-weight: 600;
+    text-align: right;
+    word-wrap: break-word;
+    position: absolute;
+    top:96px;
+    right: 222px;
+    width: 384px;
+    line-height: 50px;
+}
+.backround p{
+    color: #4D2000;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: right;
+    word-wrap: break-word;
+    position: absolute;
+    top: 248px;
+    right: 222px;
+    width: 384px;
+    border-top: #F17228 1px solid;
+    padding-top: 10px;
+}
+.arrow{
+    position: absolute;
+    top: 240px;
+    right: 120px;
+    color: #4D2000;
+}
+.bannerPic{
+    display: flex;
+    width: 588px;
+    height: 400px;
+    align-items: center;
+    margin-top: 48px;
+    margin-left: 120px;
+    position: relative;
+}
+.shul{
+    width: 345px;
+    height: 311px;
+    position: absolute;
+    left: 123px;
+    top: 49px;
+}
+.huurga{
+    width: 305px;
+    height: 369.08px;
+}
+.intro{
+    width: 100%;
+    box-sizing: border-box;
+    height: 248px;
+    padding: 0 120px;
+    background: linear-gradient(179.24deg, #F17228 -90.18%, rgba(255, 255, 255, 0) 41.19%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icontext{
+    display: flex;
+    gap: 10px;
+}
+.intro img{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+.moto{
+    display: flex;
+    flex-direction: column;
+}
+.intro h2{
+    font-weight: 700;
+    font-size: 18px;
+    margin:0
+}
+.intro p{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+.main{
+    padding: 0 120px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 450px;
+}
+.mainHead{
+    display: flex;
+    align-items: center;
+    width: 282px;
+    height: 48px;
+    gap: 10px;
+}
+.orange{
+    width: 11px;
+    height: 30px;
+    background-color: #F17228;
+}
+.orange:first-child{
+    margin-left: 10px;
+}
+.main h2{
+    font-weight: 700;
+    font-size: 20px;
+}
+.main a{
+    background-color: #F17228;
+    width: 180px;
+    height: 30px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+}
+.tseshead{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product img{
+    width: 260px;
+    height: 210px;   
+    border-radius: 10px;
+    margin: 15px 15px 10px 15px;
+    
+}
+.product p{
+    margin: 0 0 0 15px;
+    padding: 0;
+    font-weight: 600;
+    
+}
+span{
+    font-weight: 600;
+    font-size: 18px;
+    color: #F17228;
+    padding-right: 20px;
+    text-decoration: none !important;
+}
+.card{
+    position: relative;
+    width: 285px;
+    height: 305px;
+    
+}
+.discount{
+    color: white;
+    background-color: #F17228;
+    border-radius: 0 10px 0 20px;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 75px;
+    text-align: center;
+}
+.midline{
+    text-decoration: line-through;
+}
+.price{
+    display: flex;
+    margin-left: 15px;
+}
+.midline:nth-child(2){
+align-self: flex-end;
+}
+footer{
+    background-image: url(./img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;   
+    height: 385px;
+    color: white;
+    padding: 0 120px;
+    font-size: 12px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+footer ul {
+    list-style: none;
+}
+.footerTop{
+    display: flex;
+    width: 50%;
+    height: 60%;
+    padding-top: 25px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footerTop ul {
+    margin: 0;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer .logo{
+    color: white;
+    align-items: flex-start;
+
+}
+.social{
+    display: flex;
+}
+.logo p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 0;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+footer ul li {
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+footer ul li p{
+    font-weight: 400;
+    line-height: 18px;
+}
+footer ul li a{
+    font-weight: 400;
+    line-height: 18px;
+}
+.social{
+    display: flex;
+    width: 120px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.socialCard{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.socialCard p{
+    font-size: 12px;
+    font-weight: 400px;
+    margin: 0;
+}
+.policy{
+    display: flex;
+    margin: 0;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 40%;
+    text-align: end;
+    font-weight: 400
+}
+.copyright p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+.footerBottom{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 40%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-top: white 1px solid;
+    padding-top: 20px;
+}
+.policyDiv{
+    width: 50%;
+}
+.policy li{
+    font-size: 12px;
+    font-weight: 400px;
+    width: 150px;
+    margin: 0;
+    padding: 0;   
+}
+.pc{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.hover{
+    position: absolute;
+    width: 260px;
+    height: 210px;   
+    border-radius: 10px;
+    left: 15px;
+    top: 15px;
+    background: black;
+    z-index: 1;
+    opacity: 0;
+    transition: background 2s;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+.hover a {
+    
+    background-color: white;
+    color: #f17228;
+
+}
+.hover:hover{
+    transition: background 2s;
+    opacity: 0.4;
+}
+a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: orange;
+}
+a{
+    text-decoration: none;
+}
