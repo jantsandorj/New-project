@@ -153,15 +153,25 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 .icontext{
     display: flex;
     gap: 10px;
+    
+}
+.iconbackround{
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 215, 191, 0.28);
+    display: flex;
+    border-radius: 10px;
 }
 .intro img{
     width: 30px;
     height: 30px;
     align-self: center;
+    margin: 0 auto;
 }
 .moto{
     display: flex;
@@ -248,7 +258,7 @@ span{
     position: relative;
     width: 285px;
     height: 305px;
-    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .discount{
     color: white;
@@ -414,10 +424,8 @@ footer ul li a{
     font-weight: 700;
 }
 .hover a {
-    
     background-color: white;
     color: #f17228;
-
 }
 .hover:hover{
     transition: background 2s;
